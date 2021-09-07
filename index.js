@@ -194,11 +194,13 @@ function palindromeBirthday(e){
             previousOutputDiv.style.display = "none";
         }
         else{
-            outputDiv.innerText = "Sorry!! your birthday is not palindrome! 😔";
+            outputDiv.innerText = "Sorry!! your birthday is not palindrome 💔";
             var[ctr, nextDate] = getNextPalindromeDate(date);
             var[counter, previousDate] = getPreviousPalindromeDate(date);
             nextOutputDiv.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days! 😔`;
+            nextOutputDiv.style.display = "block";
             previousOutputDiv.innerText = `The previous palindrome date is ${previousDate.day}-${previousDate.month}-${previousDate.year}, you missed it by ${counter} days! 😔`;
+            previousOutputDiv.style.display = "block";
         }
     }
 }
