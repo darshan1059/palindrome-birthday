@@ -54,3 +54,25 @@ input{
     font-size: larger;
     font-weight: bold;
 }
+
+#output{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#next-palindrome-output{
+    display: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#previous-palindrome-output{
+    display: none;
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
