@@ -1,4 +1,4 @@
-# palindrome-birthday
+# Palindrome-Birthday
 A webapp that tells whether your birthday is palindrome or not and also show the nearest palindrome date..!
 
 # Tech-Stack:
